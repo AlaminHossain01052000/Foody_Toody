@@ -25,6 +25,7 @@ a{
    
     
 }
+
 #top-menu a{
     color:rgb(142, 247, 247);
     font-weight:800;
@@ -198,6 +199,29 @@ a{
 }
 .amazing-img img{
     width:100%;
+}
+/* contact us start here */
+#contact-us{
+    background-image: url(images/contact-bg.jpg);
+    
+    
+    
+}
+.contact-area{
+    margin-left: 40px;
+}
+
+
+.contact-part{
+    display: flex;
+}
+.contact-part h3{
+    color:yellowgreen
+    
+}
+.contact-part h4{
+    color:rgb(194, 92, 92)
+    
 }
 
 
