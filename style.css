@@ -33,6 +33,16 @@ a{
     text-decoration: none;
    
 }
+        /* covid-warning start */
+.covid-warning{
+    padding:15px 0;
+    background-image: linear-gradient(rgba(230, 92, 28, 0.904),rgba(0,0,0,0.5));
+}
+ .covid-warning p{
+     text-align: center;
+     font-size:20px;
+ }       
+
              /* portfolio-area start here */
 
 #portfolio-area{
@@ -61,9 +71,9 @@ a{
     font-size:18px;
 }
 
-/* about me start here */
+/* about us start here */
 
-#about-me{
+#about-us{
     display: flex;
     background-image: url(images/about-bg.png);
    padding: 50px 20px;
@@ -72,18 +82,18 @@ a{
     
     
 }
-.about-me-img img{
+.about-us-img img{
     
     width:50%;
     height:120%;
     margin-left: 250px;
 }
-.about-me-blog h2{
+.about-us-blog h2{
     
     font-weight: 600;
     color:gray;
 }
-.about-me-blog p{
+.about-us-blog p{
     font-size:14px;
     margin:40px 0;
     font-weight: 400;
